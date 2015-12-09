@@ -1,0 +1,127 @@
+\documentclass[9pt]{article}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc} 
+
+\author{Ricardo Jumbo}
+\title{}
+\usepackage[paperwidth=595pt,paperheight=842pt,top=70pt,right=85pt,bottom=70pt,left=85pt]{geometry}
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1}       \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin       \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin  \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+
+% new LaTeX commands
+
+
+\usepackage{Sweave}
+\begin{document}
+\input{sweave_trabajo_pablo-concordance}
+
+
+	\begin{center}
+		\includegraphics[width=80pt,height=80pt]{unl.png}
+	\end{center}
+	
+	
+	\begin{center}
+		% W2L: warn: inserting end tag WordToLatex.WLFontStyle
+		% W2L: warn: inserting end tag WordToLatex.WLFontStyle
+		\begin{center}
+			{\LARGE \textbf{\\
+					UNIVERSIDAD NACIONAL DE LOJA}}
+		\end{center}
+		
+	\end{center}
+	
+	\begin{center}
+		\textbf{\\
+			{
+				\large \'AREA DE LA ENERG\'IA LAS INDUSTRIAS Y LOS
+				RECURSOS NATURALES NO RENOVABLES}\\
+		}
+	\end{center}
+	
+	\begin{center}
+		\textbf{\\
+			{\Large CARRERA DE INGENIER\'IA EN SISTEMAS}}
+	\end{center}
+	
+	\begin{center}
+		\textbf{\\
+			{\Large Examen }}
+	\end{center}
+	
+	\textbf{\\
+		{\Large TEMA:}}
+	
+	\begin{center}
+		{\Large An\'alisis de Datos con Latex y R }
+	\end{center}
+	
+	\textbf{\\
+		{\Large Nombre: }}
+	
+	\begin{itemize}	
+		\item {\Large Ricardo Jumbo}\\
+		
+		{\Large AFINF7369  }
+	\end{itemize}
+	
+	\textbf{\\
+		{\Large Paralelo:}\\
+	}
+	
+	{\Large 6 ``A''}
+	
+	\textbf{\\
+		{\Large Docente:}\\
+	}
+	
+	{\Large Ing. Pablo Ordo\~nez}\\
+	
+	
+	\begin{center}
+		
+		{\Large * 10 de noviembre del 2015*}
+	\end{center}
+	
+\newpage
+
+\begin{center}
+\textbf{{\huge Preguntas}}
+
+\end{center}
+
+
+
+
+
+
+
+\newpage
+\textbf{{\LARGE Respuestas\\
+		}}
+
+
+[1] 5
+	
+
+\begin{center}
+	\includegraphics [width=80pt,height=50pt]{creative}\\
+\end{center}	
+
+\end{document}
